@@ -1,0 +1,20 @@
+.mum {
+    background-color: dodgerblue;
+    height: 50vh;
+    width: 50vw;
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    width: 10vw;
+    bottom: -10vh;
+    right: 10vw;
+}
+
+.child2 {
+    position: absolute;
+    width: 20vw;
+    bottom: 10vh;
+    left: 10vw;
+}

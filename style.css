@@ -16,6 +16,8 @@ header {
     color: white;
     height: 5vh; /* 10% der Viewport Höhe */
 }
+.textcenter {text-align: center;}
+
 
 .hero {
     background-color:mediumturquoise;
@@ -46,6 +48,30 @@ header {
     width: 80vw;
     margin: auto auto; /* das meint links und rechts */
 }
+
+.flex {
+    display: flex; /* macht kinder nebeneinander */
+    justify-content: space-between;
+}
+
+.bkgr_color1 {background-color: #eeeeee;}
+.bkgr_color2 {background-color: orangered;}
+.bkgr_color3 {background-color:#333333;}
+.bkgr_color4 {background-color:#000000;}
+.color1 {color: #eeeeee;}
+.color2 {color: orangered;}
+.color3 {color:#333333;}
+.shadow {
+    -webkit-box-shadow: 0 5px 4px 4px #C4C4C4;
+    box-shadow: 0 5px 4px 4px #C4C4C4;
+}
+.padding1 {padding: 3vw;}
+.profil1 {
+    border-radius: 100vw;
+    width: 15vw;
+    border: 0.25vw solid #ffffff;
+}
+
 
 footer {
     background-color: black;
