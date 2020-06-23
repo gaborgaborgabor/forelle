@@ -1,20 +1,23 @@
-.mum {
-    background-color: dodgerblue;
-    height: 50vh;
-    width: 50vw;
-    position: relative;
+
+.mutti {
+    display: flex;
+    background-color: palevioletred;
+    justify-content: space-between;
+    height: 40vh;
 }
 
-.child {
-    position: absolute;
-    width: 10vw;
-    bottom: -10vh;
-    right: 10vw;
+.mutti article {
+    background-color: yellowgreen;
+    outline: 1px red solid; 
 }
+
+.child1 {
+    flex: 1;
+   }
 
 .child2 {
-    position: absolute;
-    width: 20vw;
-    bottom: 10vh;
-    left: 10vw;
-}
+    flex: 3;
+   }
+ .child3 {
+    flex: 1;
+   }
